@@ -1,0 +1,15 @@
+[package]
+name = "countdown"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+crossterm = { version = "0.26.0", features = ["event-stream"] }
+tokio = { version = "1", features = ["full"] }
+lazy_static = "1.4.0"
+clap = { version = "4.1.8", features = ["derive"] }
+tokio-stream = "0.1.12"
+futures = "0.3.26"
+chrono = "0.4.23"
